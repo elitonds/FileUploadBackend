@@ -1,0 +1,22 @@
+{
+  "name": "file-upload-backend",
+  "version": "1.0.0",
+  "description": "System to upload files",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "make": "^0.8.1",
+    "mongoose": "^6.0.8",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "dotenv": "^10.0.0"
+  }
+}
